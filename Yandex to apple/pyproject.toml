@@ -1,0 +1,14 @@
+[project]
+name = "yandex-to-apple-playlists"
+version = "1.0.0"
+description = "Перенос выбранных плейлистов Яндекс Музыки в Apple Music без дублей"
+readme = "README.md"
+keywords = ["yandex-music", "apple-music", "playlists", "migration"]
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.5,<3",
+    "yandex-music==3.2.2",
+]
+
+[tool.ruff]
+line-length = 100
